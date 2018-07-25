@@ -1,0 +1,6 @@
+.SFX {
+  height: 580vh;
+  background-image: url(../../res/images/GalaxyBG.png);
+  background-repeat: repeat-y;
+  background-attachment: auto;
+}

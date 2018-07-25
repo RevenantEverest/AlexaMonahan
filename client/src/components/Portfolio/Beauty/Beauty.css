@@ -1,0 +1,90 @@
+.Beauty {
+  height: auto;
+  background-image: url(../../../res/images/GalaxyBG.png);
+  background-repeat: repeat-y;
+}
+
+.Beauty-BG {
+  min-height: 140vh;
+  height: auto;
+  width: 88%;
+  margin-left: 5%;
+  background-color: rgb(2,2,2);
+}
+
+.Beauty-header {
+  position: relative;
+  color: #dedede;
+  left: 42%;
+  font-family: "Raleway", sans-serif;
+  font-size: 40px;
+  border-bottom: 2px solid;
+}
+
+.Beauty-row {
+  margin: auto;
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Beauty-images {
+  margin: 1.3%;
+  height: 380px;
+  width: 380px;
+  object-fit: cover;
+  vertical-align: middle;
+}
+
+.Beauty-images:hover {
+  cursor:zoom-in;
+}
+
+.Selected-Image-Beauty {
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 16px;
+  vertical-align: top;
+}
+
+.simpleModal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background-color: rgba(0,0,0,0.5);
+  animation: .5s linear fadeIn;
+  overflow-x: hidden;
+}
+
+.modalContent {
+  border-radius: 12px;
+  background-color: #1a1a1a;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+  height: 60%;
+  width: 60%;
+  box-shadow: 0 5px 8px 0 rgba(255,255,255,0.2), 0 7px 20px 0 rgba(255,255,255,0.17);
+}
+
+.closeButton{
+  color: grey;
+  float: right;
+  font-size: 30px;
+}
+
+.closeButton:hover, .closeButton:focus{
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}

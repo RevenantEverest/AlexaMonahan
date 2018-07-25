@@ -1,0 +1,24 @@
+.HomePage-box1 {
+  height: 100vh;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.HomePage-box1-Logo {
+  position: relative;
+  height: 80vh;
+  width: 60%;
+  top: 14%;
+  left: 18%;
+  background-image: url(../../res/images/Logos/Logo_3_Outline.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.HomePage-box2 {
+  height: 120vh;
+  background-image: url(../../res/images/StarBG.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}

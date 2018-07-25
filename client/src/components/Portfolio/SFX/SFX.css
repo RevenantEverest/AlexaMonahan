@@ -1,0 +1,45 @@
+.SFX {
+  height: 580vh;
+  background-image: url(../../../res/images/GalaxyBG.png);
+  background-repeat: repeat-y;
+  background-attachment: auto;
+}
+
+.SFX-BG {
+  height: 270vh;
+  width: 90%;
+  margin-left: 5%;
+  background-color: rgb(2,2,2);
+}
+
+.SFX-header {
+  position: absolute;
+  color: #dedede;
+  top: 15%;
+  left: 42%;
+  font-family: "Raleway", sans-serif;
+  font-size: 40px;
+  border-bottom: 2px solid;
+}
+
+.SFX-container {
+  position: relative;
+  top: 30vh;
+  left: 12%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.SFX-contents {
+  width: 100%;
+}
+
+.SFX-column {
+  flex: 25%;
+  max-width: 25%;
+}
+
+.SFX-column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}

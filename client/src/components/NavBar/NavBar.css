@@ -1,0 +1,83 @@
+.NavBar {
+  position: fixed;
+  height: 15vh;
+  width: 100%;
+  top: -3%;
+  left: 0%;
+  background-color: rgba(0,0,0,.6);
+  z-index: 1;
+}
+
+.NavBar-Logo {
+  position: relative;
+  height: 15vh;
+  width: 18%;
+  top: -1.5vh;
+  left: 6%;
+  background-image: url(../../res/images/Logos/Logo_White.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.NavBar-Logo:hover { cursor: pointer; }
+
+.navBar {
+  position: relative;
+  display: inline-block;
+  top: -7.5vh;
+  left: -2%;
+  text-decoration: none;
+  color: #dedede;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  margin-left: 10%;
+  transition: .5s;
+}
+
+.navBar:hover {
+  color: #666666;
+  cursor: pointer;
+}
+
+.NavBar-Portfolio:hover { color: black; }
+
+.navBar { position: relative; display: inline-block; }
+
+.navBar-text-container {
+    display: none;
+    height: 15vh;
+    width: 200px;
+    background-color: #404040;
+    color: #dedede;
+    text-align: left;
+    margin: 2% 0 0 -10%;
+    box-shadow: 0px 8px 16px 0px rgba(255,255,255,0.2);
+    position: absolute;
+    z-index: 1;
+}
+
+.navBar-text {
+  position: relative;
+  display: block;
+  text-decoration: none;
+  margin-top: 20%;
+  margin-left: 4%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #dedede;
+}
+
+.navBar-beauty { margin-top: 8%; }
+
+.navBar-background {
+  position: absolute;
+  top: -2vh;
+  z-index: -1;
+  width: 90px;
+}
+
+.navBar-background, .navBar-text-container { box-shadow: 6px 8px 12px 1px rgba(255,255,255,0.2); }
+
+.navBar-text:hover { color: black; }
+
+.navBar:hover .navBar-text-container { display: block; }
